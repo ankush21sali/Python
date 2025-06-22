@@ -12,7 +12,7 @@ def guess_num_game():
     while attempt < max_attempt:
 
         try:
-            guess = int(input("Enter a number : "))
+            guess = int(input("Guess a number : "))
             attempt += 1
 
             if guess == random_num:
